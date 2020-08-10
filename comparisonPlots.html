@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+
+
+ <title>Comparison Plots</title>
+
+</head>
+
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto"> <!--right align-->
+             
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <!--drop down name-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="tempPlot.html">Max Temperture</a>
+                        <a class="dropdown-item" href="humidPlot.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudPlot.html">Cloudiness</a>
+                         <a class="dropdown-item" href="windPlot.html">Wind Speed</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparisonPlots.html">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="dataStore.html">Data<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+  
+          <div class="container">
+        <div class='row'>
+            <div class='col-md-6'>
+                <hr>
+                <img src="Fig1.png" width="400" height="400" alt="#">
+                
+            </div>
+            <div class='col-md-6'>
+                
+                <hr>
+                <a href="tempPlot.html"><img src="Fig2.png" width="400" height="400" alt="#"></a>
+                
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <hr>
+                <img src="Fig3.png" width="400" height="400" alt="#">
+                
+            </div>
+            <div class='col-md-6'>
+                
+                <hr>
+                <a href="windPlot.html"><img src="Fig4.png" width="400" height="400" alt="#"></a>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
